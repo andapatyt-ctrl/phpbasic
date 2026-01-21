@@ -14,7 +14,8 @@ class Button {
         background-color: #8071ff;
         color:#fff;
         padding: 10px 20px;
-        border-redius: 5px;
+        border-radius: 5px;
+        
         ";
 
         return "<button style='{$style}'>{$this->text}</button>";
